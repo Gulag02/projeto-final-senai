@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('../IMG/red-bus.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* inicio navbar */
+
+
+/* fim navbar */
+
+/* inicio Dropown */
+.dropbtn {
+  background-color: #00000000;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.8s;
+  border-radius: 12px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Conteudo suspenso */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0000007e;
+  border-radius: 12px;
+  min-width: 160px;
+  z-index: 1;
+  border: none;
+}
+
+/* Cor da fonte e botão*/
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+
+}
+
+/* Cor dos links quando fica com emcima */
+.dropdown-content a:hover {
+  border-radius: 12px;
+  transition: background 0.8s;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+/* Animação */
+.dropdown:hover .dropbtn {
+  border-radius: 12px;
+
+}
+
+/* Fim Dropdown */
+
+.apresenta {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
+  /* background-color: #00000073;
+  border-radius: 10px; */
+  
+}
+
+.planos {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #000;
+}
+
+/* INICIO LOGIN */
+
+/* FIM LOGIN */
+
+/* Inicio dos cards */
+.column{
+display: flex;
+}
